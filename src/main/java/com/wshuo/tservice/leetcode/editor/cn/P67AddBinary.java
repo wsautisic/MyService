@@ -36,9 +36,9 @@ import lombok.extern.slf4j.Slf4j;
  * @date 2022-05-30 19:05:53
  */
  @Slf4j
-public class AddBinary{
+public class P67AddBinary{
     public static void main(String[] args) {
-        Solution solution = new AddBinary().new Solution();
+        Solution solution = new P67AddBinary().new Solution();
         String result = solution.addBinary("100","110010");
         log.info("返回结果：{}",result);
    }
